@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/standard_margin"
+    android:layout_marginRight="@dimen/standard_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/hey_text"
+        android:text="@string/hey_user_text"
+        style="@style/general_style" />
+
+    <EditText
+        android:id="@+id/input"
+        android:hint="enter here"
+        style="@style/general_style" />
+
+    <Button
+        android:id="@+id/go_button"
+        style="@style/general_style"
+        android:text="@string/go_text" />
+
+    <TextView
+        android:id="@+id/echo_text"
+        style="@style/general_style"
+        android:text="@string/about_me_text"/>
+
+</LinearLayout>
